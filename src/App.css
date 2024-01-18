@@ -1,0 +1,12 @@
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.dna-wrapper {
+  animation: fadeOut 2s ease-out; /* Dodaj animację zanikania przez 2 sekundy */
+}
